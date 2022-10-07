@@ -1,0 +1,1776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="fromllvm" displayName="fromllvm" projectFiles="true">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <logicalFolder name="llvm" displayName="llvm" projectFiles="true">
+          <logicalFolder name="ADT" displayName="ADT" projectFiles="true">
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/APFloat.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/APInt.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/APSInt.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/AllocatorList.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/ArrayRef.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/BitVector.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/DenseMap.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/DenseMapInfo.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/DenseSet.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/EpochTracker.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/FloatingPointMode.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/FoldingSet.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/GraphTraits.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/Hashing.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/IntrusiveRefCntPtr.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/MapVector.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/None.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/Optional.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/PointerIntPair.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/PointerUnion.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/STLArrayExtras.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/STLExtras.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/STLForwardCompat.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/STLFunctionalExtras.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/ScopeExit.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/SmallPtrSet.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/SmallString.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/SmallVector.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/Statistic.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/StringExtras.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/StringMap.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/StringMapEntry.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/StringRef.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/StringSet.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/StringSwitch.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/Triple.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/Twine.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/UniqueVector.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/bit.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/edit_distance.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/identity.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/ilist_base.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/ilist_iterator.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/ilist_node.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/ilist_node_base.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/ilist_node_options.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/iterator.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/iterator_range.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/ADT/simple_ilist.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="Config" displayName="Config" projectFiles="true">
+            <itemPath>../explorer/fromllvm/include/llvm/Config/abi-breaking.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Config/config.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Config/llvm-config.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="Demangle" displayName="Demangle" projectFiles="true">
+            <itemPath>../explorer/fromllvm/include/llvm/Demangle/Demangle.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="Support" displayName="Support" projectFiles="true">
+            <logicalFolder name="FileSystem" displayName="FileSystem" projectFiles="true">
+              <itemPath>../explorer/fromllvm/include/llvm/Support/FileSystem/UniqueID.h</itemPath>
+            </logicalFolder>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/ARMBuildAttributes.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/ARMTargetParser.def</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/ARMTargetParser.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/AlignOf.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Alignment.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Allocator.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/AllocatorBase.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/CBindingWrapping.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Casting.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Chrono.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/CommandLine.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Compiler.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/ConvertUTF.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/CrashRecoveryContext.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/DJB.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/DOTGraphTraits.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/DataTypes.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Debug.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/DebugCounter.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Duration.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/ELFAttributes.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Endian.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Errc.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Errno.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Error.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/ErrorHandling.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/ErrorOr.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/ExitCodes.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/FileSystem.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/FileUtilities.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Format.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/FormatCommon.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/FormatProviders.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/FormatVariadic.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/FormatVariadicDetails.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/GraphWriter.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Host.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/InitLLVM.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Locale.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/MD5.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/ManagedStatic.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/MathExtras.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/MemAlloc.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/MemoryBuffer.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/MemoryBufferRef.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Mutex.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/NativeFormatting.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Path.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/PointerLikeTypeTraits.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/PrettyStackTrace.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Process.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Program.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/RandomNumberGenerator.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/ReverseIteration.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/SMLoc.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/SaveAndRestore.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Signals.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Signposts.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/SmallVectorMemoryBuffer.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/SourceMgr.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/StringSaver.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/SwapByteOrder.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/ThreadLocal.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Threading.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Timer.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/TypeSize.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Unicode.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/UnicodeCharRanges.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/VersionTuple.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/VirtualFileSystem.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/Watchdog.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/WindowsError.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/WithColor.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/X86TargetParser.def</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/X86TargetParser.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/YAMLParser.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/YAMLTraits.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/circular_raw_ostream.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/raw_os_ostream.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/raw_ostream.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/thread.h</itemPath>
+            <itemPath>../explorer/fromllvm/include/llvm/Support/type_traits.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="llvm-c" displayName="llvm-c" projectFiles="true">
+          <itemPath>../explorer/fromllvm/include/llvm-c/DataTypes.h</itemPath>
+          <itemPath>../explorer/fromllvm/include/llvm-c/Error.h</itemPath>
+          <itemPath>../explorer/fromllvm/include/llvm-c/ErrorHandling.h</itemPath>
+          <itemPath>../explorer/fromllvm/include/llvm-c/ExternC.h</itemPath>
+          <itemPath>../explorer/fromllvm/include/llvm-c/Support.h</itemPath>
+          <itemPath>../explorer/fromllvm/include/llvm-c/Types.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="lib" displayName="lib" projectFiles="true">
+        <logicalFolder name="Support" displayName="Support" projectFiles="true">
+          <logicalFolder name="Unix" displayName="Unix" projectFiles="true">
+            <itemPath>../explorer/fromllvm/lib/Support/Unix/Host.inc</itemPath>
+            <itemPath>../explorer/fromllvm/lib/Support/Unix/Path.inc</itemPath>
+            <itemPath>../explorer/fromllvm/lib/Support/Unix/Process.inc</itemPath>
+            <itemPath>../explorer/fromllvm/lib/Support/Unix/Program.inc</itemPath>
+            <itemPath>../explorer/fromllvm/lib/Support/Unix/Signals.inc</itemPath>
+            <itemPath>../explorer/fromllvm/lib/Support/Unix/ThreadLocal.inc</itemPath>
+            <itemPath>../explorer/fromllvm/lib/Support/Unix/Threading.inc</itemPath>
+            <itemPath>../explorer/fromllvm/lib/Support/Unix/Unix.h</itemPath>
+            <itemPath>../explorer/fromllvm/lib/Support/Unix/Watchdog.inc</itemPath>
+          </logicalFolder>
+          <itemPath>../explorer/fromllvm/lib/Support/ABIBreak.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/APFloat.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/APInt.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/APSInt.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/ARMTargetParser.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Allocator.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/CommandLine.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/ConvertUTF.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/ConvertUTFWrapper.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/CrashRecoveryContext.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Debug.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/DebugCounter.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Errno.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Error.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/ErrorHandling.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/FileUtilities.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/FormatVariadic.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/GraphWriter.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Hashing.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Host.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/InitLLVM.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Locale.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/MD5.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/ManagedStatic.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/MemAlloc.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/MemoryBuffer.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/MemoryBufferRef.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/NativeFormatting.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Optional.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Path.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/PrettyStackTrace.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Process.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Program.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/RandomNumberGenerator.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Signals.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Signposts.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/SmallPtrSet.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/SmallVector.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/SourceMgr.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Statistic.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/StringExtras.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/StringMap.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/StringRef.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/StringSaver.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/ThreadLocal.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Threading.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Timer.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Triple.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Twine.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/TypeSize.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Unicode.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/VersionTuple.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/VirtualFileSystem.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/Watchdog.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/WithColor.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/X86TargetParser.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/YAMLParser.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/circular_raw_ostream.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/raw_os_ostream.cpp</itemPath>
+          <itemPath>../explorer/fromllvm/lib/Support/raw_ostream.cpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../explorer/fromllvm/check-from-llvm.sh</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="ast" displayName="ast" projectFiles="true">
+        <itemPath>../explorer/ast/BUILD</itemPath>
+        <itemPath>../explorer/ast/README.md</itemPath>
+        <itemPath>../explorer/ast/ast.h</itemPath>
+        <itemPath>../explorer/ast/ast_node.cpp</itemPath>
+        <itemPath>../explorer/ast/ast_node.h</itemPath>
+        <itemPath>../explorer/ast/ast_rtti.cpp</itemPath>
+        <itemPath>../explorer/ast/ast_rtti.h</itemPath>
+        <itemPath>../explorer/ast/ast_rtti.txt</itemPath>
+        <itemPath>../explorer/ast/bindings.cpp</itemPath>
+        <itemPath>../explorer/ast/bindings.h</itemPath>
+        <itemPath>../explorer/ast/declaration.cpp</itemPath>
+        <itemPath>../explorer/ast/declaration.h</itemPath>
+        <itemPath>../explorer/ast/expression.cpp</itemPath>
+        <itemPath>../explorer/ast/expression.h</itemPath>
+        <itemPath>../explorer/ast/impl_binding.h</itemPath>
+        <itemPath>../explorer/ast/library_name.h</itemPath>
+        <itemPath>../explorer/ast/member.cpp</itemPath>
+        <itemPath>../explorer/ast/member.h</itemPath>
+        <itemPath>../explorer/ast/paren_contents.h</itemPath>
+        <itemPath>../explorer/ast/pattern.cpp</itemPath>
+        <itemPath>../explorer/ast/pattern.h</itemPath>
+        <itemPath>../explorer/ast/return_term.h</itemPath>
+        <itemPath>../explorer/ast/statement.cpp</itemPath>
+        <itemPath>../explorer/ast/statement.h</itemPath>
+        <itemPath>../explorer/ast/static_scope.cpp</itemPath>
+        <itemPath>../explorer/ast/static_scope.h</itemPath>
+        <itemPath>../explorer/ast/value_category.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="common" displayName="common" projectFiles="true">
+        <itemPath>../explorer/common/BUILD</itemPath>
+        <itemPath>../common/BUILD</itemPath>
+        <itemPath>../explorer/common/arena.h</itemPath>
+        <itemPath>../common/bazel_working_dir.h</itemPath>
+        <itemPath>../common/check.h</itemPath>
+        <itemPath>../common/check_internal.h</itemPath>
+        <itemPath>../common/error.h</itemPath>
+        <itemPath>../explorer/common/error_builders.h</itemPath>
+        <itemPath>../common/indirect_value.h</itemPath>
+        <itemPath>../common/metaprogramming.h</itemPath>
+        <itemPath>../explorer/common/nonnull.h</itemPath>
+        <itemPath>../common/ostream.h</itemPath>
+        <itemPath>../explorer/common/source_location.h</itemPath>
+        <itemPath>../common/string_helpers.cpp</itemPath>
+        <itemPath>../common/string_helpers.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="data" displayName="data" projectFiles="true">
+        <itemPath>../explorer/data/prelude.carbon</itemPath>
+      </logicalFolder>
+      <logicalFolder name="interpreter" displayName="interpreter" projectFiles="true">
+        <itemPath>../explorer/interpreter/BUILD</itemPath>
+        <itemPath>../explorer/interpreter/README.md</itemPath>
+        <itemPath>../explorer/interpreter/action.cpp</itemPath>
+        <itemPath>../explorer/interpreter/action.h</itemPath>
+        <itemPath>../explorer/interpreter/action_stack.cpp</itemPath>
+        <itemPath>../explorer/interpreter/action_stack.h</itemPath>
+        <itemPath>../explorer/interpreter/address.h</itemPath>
+        <itemPath>../explorer/interpreter/builtins.cpp</itemPath>
+        <itemPath>../explorer/interpreter/builtins.h</itemPath>
+        <itemPath>../explorer/interpreter/dictionary.h</itemPath>
+        <itemPath>../explorer/interpreter/exec_program.cpp</itemPath>
+        <itemPath>../explorer/interpreter/exec_program.h</itemPath>
+        <itemPath>../explorer/interpreter/field_path.h</itemPath>
+        <itemPath>../explorer/interpreter/heap.cpp</itemPath>
+        <itemPath>../explorer/interpreter/heap.h</itemPath>
+        <itemPath>../explorer/interpreter/heap_allocation_interface.h</itemPath>
+        <itemPath>../explorer/interpreter/impl_scope.cpp</itemPath>
+        <itemPath>../explorer/interpreter/impl_scope.h</itemPath>
+        <itemPath>../explorer/interpreter/interpreter.cpp</itemPath>
+        <itemPath>../explorer/interpreter/interpreter.h</itemPath>
+        <itemPath>../explorer/interpreter/pattern_analysis.cpp</itemPath>
+        <itemPath>../explorer/interpreter/pattern_analysis.h</itemPath>
+        <itemPath>../explorer/interpreter/resolve_control_flow.cpp</itemPath>
+        <itemPath>../explorer/interpreter/resolve_control_flow.h</itemPath>
+        <itemPath>../explorer/interpreter/resolve_names.cpp</itemPath>
+        <itemPath>../explorer/interpreter/resolve_names.h</itemPath>
+        <itemPath>../explorer/interpreter/resolve_unformed.cpp</itemPath>
+        <itemPath>../explorer/interpreter/resolve_unformed.h</itemPath>
+        <itemPath>../explorer/interpreter/stack.h</itemPath>
+        <itemPath>../explorer/interpreter/type_checker.cpp</itemPath>
+        <itemPath>../explorer/interpreter/type_checker.h</itemPath>
+        <itemPath>../explorer/interpreter/value.cpp</itemPath>
+        <itemPath>../explorer/interpreter/value.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="syntax" displayName="syntax" projectFiles="true">
+        <itemPath>../explorer/syntax/BUILD</itemPath>
+        <itemPath>../explorer/syntax/README.md</itemPath>
+        <itemPath>../explorer/syntax/bison_wrap.h</itemPath>
+        <itemPath>../explorer/syntax/format_grammar.py</itemPath>
+        <itemPath>../explorer/syntax/format_grammar_test.py</itemPath>
+        <itemPath>../explorer/syntax/lex_helper.h</itemPath>
+        <itemPath>../explorer/syntax/lex_scan_helper.cpp</itemPath>
+        <itemPath>../explorer/syntax/lex_scan_helper.h</itemPath>
+        <itemPath>../explorer/syntax/lexer.cpp</itemPath>
+        <itemPath>../explorer/syntax/lexer.h</itemPath>
+        <itemPath>../explorer/syntax/lexer.lpp</itemPath>
+        <itemPath>../explorer/syntax/parse.cpp</itemPath>
+        <itemPath>../explorer/syntax/parse.h</itemPath>
+        <itemPath>../explorer/syntax/parse_and_lex_context.cpp</itemPath>
+        <itemPath>../explorer/syntax/parse_and_lex_context.h</itemPath>
+        <itemPath>../explorer/syntax/parser.cpp</itemPath>
+        <itemPath>../explorer/syntax/parser.h</itemPath>
+        <itemPath>../explorer/syntax/parser.ypp</itemPath>
+        <itemPath>../explorer/syntax/parser.ypp-naked.y</itemPath>
+        <itemPath>../explorer/syntax/parser.ypp.ebnf</itemPath>
+        <itemPath>../explorer/syntax/parser.ypp2.ebnf</itemPath>
+        <itemPath>../explorer/syntax/prelude.cpp</itemPath>
+        <itemPath>../explorer/syntax/prelude.h</itemPath>
+      </logicalFolder>
+      <itemPath>../explorer/main.cpp</itemPath>
+      <itemPath>../explorer/main.h</itemPath>
+      <itemPath>../explorer/main_bin.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../explorer/ast</Elem>
+    <Elem>../explorer/common</Elem>
+    <Elem>../explorer/data</Elem>
+    <Elem>../explorer/interpreter</Elem>
+    <Elem>../explorer/syntax</Elem>
+    <Elem>../common</Elem>
+    <Elem>../explorer/llvm</Elem>
+    <Elem>../explorer/fromllvm</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Standalone_Clang-15" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandlineTool>clang-15-env clang</commandlineTool>
+        </cTool>
+        <ccTool>
+          <commandlineTool>clang-15-env clang++ -std=c++17 -no-canonical-prefixes -fno-rtti</commandlineTool>
+          <incDir>
+            <pElem>..</pElem>
+            <pElem>../explorer</pElem>
+            <pElem>../explorer/fromllvm/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <commandlineTool>clang-15-env clang++ -std=c++17 -no-canonical-prefixes</commandlineTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibStdlibItem>Curses</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="../common/BUILD" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/bazel_working_dir.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/check.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/check_internal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/indirect_value.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/metaprogramming.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/ostream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/string_helpers.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../common/string_helpers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/BUILD" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/ast.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/ast_node.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/ast/ast_node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/ast_rtti.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/ast/ast_rtti.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/ast_rtti.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/bindings.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/ast/bindings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/declaration.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/ast/declaration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/expression.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/ast/expression.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/impl_binding.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/library_name.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/member.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/ast/member.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/paren_contents.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/pattern.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/ast/pattern.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/return_term.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/statement.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/ast/statement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/static_scope.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/ast/static_scope.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/ast/value_category.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/common/BUILD" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/common/arena.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/common/error_builders.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/common/nonnull.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/common/source_location.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/data/prelude.carbon" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/check-from-llvm.sh"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm-c/DataTypes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm-c/Error.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm-c/ErrorHandling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm-c/ExternC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm-c/Support.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm-c/Types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/APFloat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/APInt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/APSInt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/AllocatorList.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/ArrayRef.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/BitVector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/DenseMap.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/DenseMapInfo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/DenseSet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/EpochTracker.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/FloatingPointMode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/FoldingSet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/GraphTraits.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/Hashing.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/IntrusiveRefCntPtr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/MapVector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/None.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/Optional.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/PointerIntPair.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/PointerUnion.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/STLArrayExtras.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/STLExtras.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/STLForwardCompat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/STLFunctionalExtras.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/ScopeExit.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/SmallPtrSet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/SmallString.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/SmallVector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/Statistic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/StringExtras.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/StringMap.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/StringMapEntry.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/StringRef.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/StringSet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/StringSwitch.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/Triple.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/Twine.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/UniqueVector.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/bit.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/edit_distance.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/identity.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/ilist_base.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/ilist_iterator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/ilist_node.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/ilist_node_base.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/ilist_node_options.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/iterator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/iterator_range.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/ADT/simple_ilist.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Config/abi-breaking.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Config/config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Config/llvm-config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Demangle/Demangle.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/ARMBuildAttributes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/ARMTargetParser.def"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/ARMTargetParser.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/AlignOf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Alignment.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Allocator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/AllocatorBase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/CBindingWrapping.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Casting.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Chrono.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/CommandLine.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Compiler.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/ConvertUTF.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/CrashRecoveryContext.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/DJB.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/DOTGraphTraits.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/DataTypes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Debug.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/DebugCounter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Duration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/ELFAttributes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Endian.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Errc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Errno.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Error.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/ErrorHandling.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/ErrorOr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/ExitCodes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/FileSystem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/FileSystem/UniqueID.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/FileUtilities.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Format.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/FormatCommon.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/FormatProviders.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/FormatVariadic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/FormatVariadicDetails.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/GraphWriter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Host.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/InitLLVM.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Locale.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/MD5.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/ManagedStatic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/MathExtras.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/MemAlloc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/MemoryBuffer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/MemoryBufferRef.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Mutex.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/NativeFormatting.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Path.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/PointerLikeTypeTraits.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/PrettyStackTrace.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Process.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Program.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/RandomNumberGenerator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/ReverseIteration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/SMLoc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/SaveAndRestore.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Signals.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Signposts.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/SmallVectorMemoryBuffer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/SourceMgr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/StringSaver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/SwapByteOrder.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/ThreadLocal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Threading.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Timer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/TypeSize.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Unicode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/UnicodeCharRanges.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/VersionTuple.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/VirtualFileSystem.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/Watchdog.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/WindowsError.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/WithColor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/X86TargetParser.def"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/X86TargetParser.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/YAMLParser.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/YAMLTraits.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/circular_raw_ostream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/raw_os_ostream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/raw_ostream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/thread.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/include/llvm/Support/type_traits.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/ABIBreak.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/APFloat.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/APInt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/APSInt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/ARMTargetParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Allocator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/CommandLine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/ConvertUTF.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/ConvertUTFWrapper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/CrashRecoveryContext.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Debug.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/DebugCounter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Errno.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Error.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/ErrorHandling.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/FileUtilities.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/FormatVariadic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/GraphWriter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Hashing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Host.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/InitLLVM.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Locale.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/MD5.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/ManagedStatic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/MemAlloc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/MemoryBuffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/MemoryBufferRef.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/NativeFormatting.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Optional.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/PrettyStackTrace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Process.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Program.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/RandomNumberGenerator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Signals.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Signposts.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/SmallPtrSet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/SmallVector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/SourceMgr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Statistic.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/StringExtras.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/StringMap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/StringRef.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/StringSaver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/ThreadLocal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Threading.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Timer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Triple.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Twine.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/TypeSize.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Unicode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Unix/Host.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Unix/Path.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Unix/Process.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Unix/Program.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Unix/Signals.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Unix/ThreadLocal.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Unix/Threading.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Unix/Unix.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Unix/Watchdog.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/VersionTuple.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/VirtualFileSystem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/Watchdog.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/WithColor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/X86TargetParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/YAMLParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/circular_raw_ostream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/raw_os_ostream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/fromllvm/lib/Support/raw_ostream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/BUILD" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/action.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/action.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/action_stack.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/action_stack.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/address.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/builtins.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/builtins.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/dictionary.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/exec_program.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/exec_program.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/field_path.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/heap.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/heap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/heap_allocation_interface.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/impl_scope.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/impl_scope.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/interpreter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/interpreter.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/pattern_analysis.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/pattern_analysis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/resolve_control_flow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/resolve_control_flow.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/resolve_names.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/resolve_names.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/resolve_unformed.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/resolve_unformed.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/type_checker.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/type_checker.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/interpreter/value.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/interpreter/value.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/main.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/main_bin.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/syntax/BUILD" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/syntax/README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/syntax/bison_wrap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/syntax/format_grammar.py"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/syntax/format_grammar_test.py"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/syntax/lex_helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/syntax/lex_scan_helper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/syntax/lex_scan_helper.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/syntax/lexer.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/syntax/lexer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/syntax/lexer.lpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/syntax/parse.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/syntax/parse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/syntax/parse_and_lex_context.cpp"
+            ex="false"
+            tool="1"
+            flavor2="9">
+      </item>
+      <item path="../explorer/syntax/parse_and_lex_context.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/syntax/parser.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/syntax/parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/syntax/parser.ypp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/syntax/parser.ypp-naked.y"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/syntax/parser.ypp.ebnf" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../explorer/syntax/parser.ypp2.ebnf"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../explorer/syntax/prelude.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="../explorer/syntax/prelude.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

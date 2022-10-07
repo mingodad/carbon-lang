@@ -6,17 +6,17 @@
 #mycc="g++ -Wall -Wno-attributes -Wno-return-type"
 
 #clang
-#myopts="-o carbon-clang-32 -Os"
+myopts="-o carbon-clang-32 -m32 -Os"
 #myopts="-o carbon-clang-64 -Os"
-#mycc="clang-15-env clang++ -Wall"
+mycc="clang-15-env clang++ -Wall"
 
 #not used on wasm
-#mylibs="-lpthread -lcurses"
+mylibs="-lpthread -lcurses"
 
 #wasm
-myopts="-o carbon.js -Os"
-mycc="emsdk-env em++ -Wall -sALLOW_MEMORY_GROWTH"
-mylibs="-D__DUMMY__"  #only because em++ was not compiling the last cpp file
+#myopts="-o carbon.js -Os"
+#mycc="emsdk-env em++ -Wall -sALLOW_MEMORY_GROWTH"
+#mylibs="-D__DUMMY__"  #only because em++ was not compiling the last cpp file
 
 
 echo $mycc $myopts $mylibs

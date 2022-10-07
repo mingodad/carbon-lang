@@ -15,7 +15,11 @@ namespace Carbon {
 // as an argument. Static analysis will also track erroneous uses of `nullptr`.
 template <typename T,
           typename std::enable_if_t<std::is_pointer_v<T>>* = nullptr>
+#ifdef __clang__
 using Nonnull = T _Nonnull;
+#else
+using Nonnull = T;
+#endif
 
 }  // namespace Carbon
 
